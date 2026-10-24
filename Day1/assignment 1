@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	
+	printf("Name: Jam Jeremiah Amesinda\n");
+	printf("Age: 33\n");
+	printf("Department: Software Engineering\n");
+	printf("Career Goal: software developer\n");
+	
+	return 0;
+}

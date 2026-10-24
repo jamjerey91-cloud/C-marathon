@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+	int age = 21;
+	float height = 12.5f;
+	double marks = 90;
+	char grade = 'A';
+	
+	printf("Integer (age): \n");
+	scanf("%d", &age);
+	
+	printf("float height: \n");
+	scanf("%f", &height);
+	
+	printf("double marks: \n");
+	scanf("%.lf", &marks);
+	
+	printf("char grade: \n");
+	scanf("%c", &grade);
+	
+	return 0;
+	
+}
